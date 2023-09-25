@@ -13,20 +13,22 @@ var foods = {
 
 // Write code that prints all of the 'keys' of the foods variable 
 // you created above:
-// YOUR CODE HERE
+var keys = Object.keys(foods);
+console.log(keys);
 
 // Write code that prints all of the 'values' of the foods variable 
 // you created above:
-// YOUR CODE HERE
+var values = Object.values(foods);
+console.log(values);
 
 // Write code that prints the value of the second food of the foods variable 
 // you created above:
-// YOUR CODE HERE
+console.log(foods.grapes)
 
 // Write code that adds a food to the foods object. 
 // Then, print the updated object:
-// YOUR CODE HERE
-
+foods.popTarts = 2
+foods.sourPatchKids = 4
 
 // -------------------
 // Part 2: Email
